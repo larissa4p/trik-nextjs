@@ -1,0 +1,21 @@
+.bck {
+  background-image: url(../../public/images/growth.png);
+  background-size: 99rem;
+  height: 5rem;
+  background-repeat: no-repeat;
+  width: auto;
+}
+
+.bckcolor{
+  background-color: #151515;  
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.social {
+  background-image: url(../../public/images/social.png);
+  background-size: 99rem;
+  height: 5rem;
+  background-repeat: no-repeat;
+  width: auto;
+}

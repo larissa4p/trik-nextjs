@@ -1,0 +1,16 @@
+.bck {
+  background-image: url(../../public/images/sphere10.png);
+  min-height: calc(100vh - 56px);
+  background-position: top right;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.size {
+  font-size: 6rem !important;
+  line-height: 6rem;
+}
+
+.divdiv {
+  height: 80vh;
+}

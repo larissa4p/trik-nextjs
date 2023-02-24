@@ -1,0 +1,12 @@
+.bckcolor{
+  background-color: #151515;
+}
+
+.bck {
+  background-image: url(../../public/images/sphere9.png);
+  min-height: calc(100vh - 200px);
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: #151515;
+}
