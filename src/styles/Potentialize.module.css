@@ -1,3 +1,26 @@
 .bck {
   background-color: #151515;
 }
+
+.span {
+  content: url(../../public/images/circle.png);
+  position: absolute;
+  left: 2%;
+  top: 26%;
+  /* width: 16%; */
+  height: auto;
+  transform: scale(0.68);
+}
+
+.pos {
+  position: relative;
+}
+
+.span2 {
+  content: url(../../public/images/line1.png);
+  position: absolute;
+  left: 13%;
+  top: 49%;
+  width: 12%;
+}
+

@@ -3,9 +3,9 @@
 }
 
 .bck {
-  background-image: url(../../public/images/sphere9.png);
+  background-image: url(../../public/images/bg-footer.png);
   min-height: calc(100vh - 200px);
-  background-position: top center;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   background-color: #151515;

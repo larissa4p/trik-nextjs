@@ -1,3 +1,12 @@
-.bckcolor{
+.bckcolor {
   background-color: #151515;
+}
+
+.accordionItem {
+  border-bottom: 1px solid rgba(248, 247, 247, 0.993) !important;
+}
+
+.accordionItem > button {
+  background-color: #151515 !important;
+  color: #FFF;
 }

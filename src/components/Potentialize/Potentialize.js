@@ -1,6 +1,4 @@
 import styles from "../../styles/Potentialize.module.css";
-import Image from "next/image";
-import Img01 from "../../../public/images/potencialize.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -9,10 +7,21 @@ export default function Potentialize() {
   return (
     <section className={styles.bck}>
       <Container className="pt-5">
-        <Row className="d-flex justify-content-center py-5"> 
+        <Row className={`${styles.pos} d-flex justify-content-center py-5`}>
           <Col md="5" className="offset-md-1">
-            <Image className="img-fluid" src={Img01} alt="banner"/>
-            <p className="pt-2">#weareresult.</p>
+            <div>
+              <h2 className="fw-bold">POTENTIALIZE</h2>
+              <h2 className="fw-bold">
+                <span className="fs-5 pe-1">AND</span>
+                BOOST
+              </h2>
+              <div className={styles.span}></div>
+              <h2 className="fw-bold">PURPOSES</h2>
+              <span className={styles.span2}></span>
+              <h2 className="fw-bold"><span className="fs-5 pe-1">AND</span>
+              BUSINESS.</h2>
+              <p className="pt-2">#weareresult.</p>
+            </div>
           </Col>
           <Col md="6" className="text-start px-5">
             <p>
