@@ -7,7 +7,6 @@
   position: absolute;
   left: 2%;
   top: 26%;
-  /* width: 16%; */
   height: auto;
   transform: scale(0.68);
 }
@@ -22,5 +21,28 @@
   left: 13%;
   top: 49%;
   width: 12%;
+}
+
+@media only screen and (max-device-width: 322px) {
+  .span {
+    content: url(../../public/images/circle.png);
+    position: absolute;
+    left: -16%;
+    top: 9%;
+    height: auto;
+    transform: scale(0.53);
+  }
+  
+  .pos {
+    position: relative;
+  }
+  
+  .span2 {
+    content: url(../../public/images/line1.png);
+    position: absolute;
+    left: 28%;
+    top: 18%;
+    width: 41%;
+  }
 }
 

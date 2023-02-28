@@ -17,12 +17,22 @@ export default function WeAreTrik() {
         <Row>
           <Col
             md="5"
-            className={`${styles.divdiv} d-flex flex-column justify-content-center offset-md-1`}
+            className={`${styles.divdiv} pt-5 d-none d-md-block d-lg-block d-flex flex-column justify-content-center offset-md-1`}
           >
             <h1 className={`${styles.size} fw-bold text-start`}>
               WE ARE <br /> TRIK.
             </h1>
             <p className="fs-4 fw-light">G R O W T H . DIGITAL . AGENCY</p>
+          </Col>
+          {/* MOBILE */}
+          <Col
+            sm="5"
+            className={`${styles.divdiv}d-block d-sm-none d-flex flex-column justify-content-center offset-md-1`}
+          >
+            <h1 className={`${styles.size} ps-5 fw-bold text-start`}>
+              WE ARE TRIK.
+            </h1>
+            <p className="fs-6 ps-4 py-3 fw-light">G R O W T H . DIGITAL . AGENCY</p>
           </Col>
         </Row>
         <Row>
