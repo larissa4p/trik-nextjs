@@ -4,9 +4,23 @@
 
 .accordionItem {
   border-bottom: 1px solid rgba(248, 247, 247, 0.993) !important;
+  border: none !important;
 }
 
 .accordionItem > button {
   background-color: #151515 !important;
+  color: #FFF !important;
+  border: none !important;
+}
+
+.accordionItem > button:not(.collapsed)::after{
+  background-image: url(../../public/images/icon-plus.png);
+}
+
+.accordionBody > button:not(.collapsed)::after{
+  color: #FFF ;
+}
+
+.accordion-button > button:not(.collapsed)::after{
   color: #FFF;
 }

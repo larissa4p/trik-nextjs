@@ -15,12 +15,12 @@ function Accordion1() {
             <h3>WE CREATE BIG THINGS WITH</h3>
           </Col>
           <Col md="6" className="offset-md-5 py-5">
-            <Accordion flush eventKey="0">
+            <Accordion flush defaultActiveKey="0">
               <Accordion.Item eventKey="0">
                 <Accordion.Header className={styles.accordionItem}>
                   DIGITAL MARKETING
                 </Accordion.Header>
-                <Accordion.Body className="accordion-button bg-dark text-light">
+                <Accordion.Body >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -35,7 +35,7 @@ function Accordion1() {
                 <Accordion.Header className={styles.accordionItem}>
                   GROWTH HACKING
                 </Accordion.Header>
-                <Accordion.Body className="accordion-button bg-dark text-light">
+                <Accordion.Body >
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -50,7 +50,7 @@ function Accordion1() {
                 <Accordion.Header className={styles.accordionItem}>
                   SOCIAL MEDIA
                 </Accordion.Header>
-                <Accordion.Body className="accordion-button bg-dark text-light">
+                <Accordion.Body>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -65,7 +65,7 @@ function Accordion1() {
                 <Accordion.Header className={styles.accordionItem}>
                   SEO
                 </Accordion.Header>
-                <Accordion.Body className="accordion-button bg-dark text-light">
+                <Accordion.Body>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -80,7 +80,7 @@ function Accordion1() {
                 <Accordion.Header className={styles.accordionItem}>
                   AD SENSE
                 </Accordion.Header>
-                <Accordion.Body className="accordion-button bg-dark text-light">
+                <Accordion.Body>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
