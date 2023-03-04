@@ -17,8 +17,8 @@
 
 @media only screen and (max-device-width: 480px) {
   .size {
-    font-size: 10rem !important;
-    line-height: 2rem;
+    font-size: 4rem !important;
+    line-height: 4rem;
   }
   .divdiv {
     height: 80vh;

@@ -29,7 +29,7 @@ export default function WeAreTrik() {
             sm="5"
             className={`${styles.divdiv}d-block d-sm-none d-flex flex-column justify-content-center offset-md-1`}
           >
-            <h1 className={`${styles.size} ps-5 fw-bold text-start`}>
+            <h1 className={`${styles.size} p-4 fw-bold text-start`}>
               WE ARE TRIK.
             </h1>
             <p className="fs-6 ps-4 py-3 fw-light">G R O W T H . DIGITAL . AGENCY</p>

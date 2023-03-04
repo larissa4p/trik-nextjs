@@ -7,7 +7,7 @@ export default function Potentialize() {
   return (
     <section className={styles.bck}>
       <Container className="pt-5">
-        <Row className={`${styles.pos} d-flex justify-content-center py-5`}>
+        <Row className={`d-flex justify-content-center py-5`}>
           {/* DESKTOP */}
           <Col md="5" className="d-none d-md-block d-lg-block offset-md-1">
             <div>
@@ -16,10 +16,8 @@ export default function Potentialize() {
                 <span className="fs-5 pe-1">AND</span>
                 BOOST
               </h2>
-              <div className={styles.span}></div>
-              <h2 className="fw-bold">PURPOSES</h2>
-              <span className={styles.span2}></span>
-              <h2 className="fw-bold"><span className="fs-5 pe-1">AND</span>
+              <h2 className={`${styles.circle} ${styles.pos} d-inline-block fw-bold`}>PURPOSES</h2>
+              <h2 className={`${styles.wave} ${styles.pos} fw-bold`}><span className="fs-5 pe-1">AND</span>
               BUSINESS.</h2>
               <p className="pt-2">#weareresult.</p>
             </div>
@@ -27,8 +25,8 @@ export default function Potentialize() {
           {/* MOBILE */}
           <Col sm="5" className="ps-5 pb-3 d-block d-sm-none offset-md-1">
             <div>
-              <h2 className="fw-bold">POTENTIALIZE</h2>
-              <h2 className="fw-bold">
+              <h2 className={`${styles.circle} ${styles.pos} d-inline-block fw-bold`}>POTENTIALIZE</h2>
+              <h2 className={`${styles.wave} ${styles.pos} fw-bold`}>
                 <span className="fs-5 pe-1">AND</span>
                 BOOST
               </h2>
