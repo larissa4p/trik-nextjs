@@ -1,5 +1,9 @@
 import Container from "react-bootstrap/Container";
 import Image from "next/image";
+import LinkedIn from "../../../public/images/LinkedIn.png";
+import Twitter from "../../../public/images/Twitter.png";
+import Instagram from "../../../public/images/Instagram.png";
+import YouTube from "../../../public/images/YouTube.png";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
@@ -55,7 +59,7 @@ const nav = () => {
       </Navbar>
       {/* MOBILE */}
       <Navbar
-        className={`${styles} d-sm-none`}
+        className={`d-sm-none`}
         collapseOnSelect
         expand="lg"
         bg="black"
@@ -72,25 +76,42 @@ const nav = () => {
               loading="lazy"
             />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="responsive-navbar-nav"
+            className={styles.teste}
+          />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ps-5 ms-5">
-              <Nav.Link className="text-light" href="#features">
+            <Nav className="fs-4 px-4 pt-5 mt-5">
+              <Nav.Link className={`${styles.bdr_color} text-light pb-4`} href="#features">
                 WE ARE TRIK
               </Nav.Link>
-              <Nav.Link className="text-light" href="#features">
+              <Nav.Link className={`${styles.bdr_color} text-light pb-4`} href="#features">
                 WHAT WE DO
               </Nav.Link>
-              <Nav.Link className="pe-5 text-light" href="#features">
+              <Nav.Link className={`${styles.bdr_color} text-light pb-4`} href="#features">
                 OUR PARTNERS
               </Nav.Link>
             </Nav>
             <Button
-              className={`${styles.btn_color} w-100`}
+              className={`${styles.btn_color} m-4`}
               variant="btn btn-outline-secondary text-light rounded-0"
             >
               LET'S TALK
             </Button>
+            <div className="d-flex p-4">
+              <Nav.Link>
+                <Image src={LinkedIn} alt="Icon-linkedin" />
+              </Nav.Link>
+              <Nav.Link className="px-1">
+                <Image src={Twitter} alt="Icon-Twitter" />
+              </Nav.Link>
+              <Nav.Link className="px-1">
+                <Image src={Instagram} alt="Icon-Instagram" />
+              </Nav.Link>
+              <Nav.Link className="px-1">
+                <Image src={YouTube} alt="Icon-YouTube" />
+              </Nav.Link>
+            </div>
           </Navbar.Collapse>
         </Container>
       </Navbar>

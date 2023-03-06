@@ -68,12 +68,12 @@ export default function Footer() {
           </Row>
         </Container>
         {/* MOBILE */}
-        <Container className="d-block d-sm-none">
+        <Container className="d-block d-sm-none p-4">
           <Row>
             <Col md="8" className="offset-md-1">
-              <h3 className="fw-bold fs-1">WE ARE TRIK.</h3>
+              <h3 className={`${styles.size} fw-bold fs-1`}>WE <br/>ARE TRIK.</h3>
               <p className="fw-semibold">
-                It's not magic, but it is <b>SUPER</b>natural!
+                It's not magic,<br/> but it is <b>SUPER</b>natural!
               </p>
             </Col>
             <Col md="3">
@@ -92,13 +92,13 @@ export default function Footer() {
             </Col>
           </Row>
           <Row>
-            <Col className="offset-md-1">
-              <hr />
+            <Col className={` offset-md-1 pt-4`}>
+              <div className={styles.bdr_color}></div>
             </Col>
           </Row>
           <Row>
-            <Col md="4" className="offset-md-1">
-              <p>©2022 TriK Digital. All rights reserved.</p>
+            <Col md="4" className="offset-md-1 pt-4">
+              <p className="text-secondary">©2022 TriK Digital. All rights reserved.</p>
             </Col>
             <Col md="4" className="">
               <div>
@@ -117,7 +117,7 @@ export default function Footer() {
               </div>
             </Col>
             <Col md="3" className="py-3">
-              <p>Made with🤍by DevSquad</p>
+              <p className="text-secondary">Made with🤍by DevSquad</p>
             </Col>
           </Row>
         </Container>

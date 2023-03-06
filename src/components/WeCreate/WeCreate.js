@@ -8,8 +8,8 @@ import Col from "react-bootstrap/Col";
 
 function Accordion1() {
   return (
-    <section className={`${styles.bckcolor} pt-5`}>
-      <Container>
+    <section className={`${styles.bckcolor}`}>
+      <Container className="p-4">
         <Row>
           <Col md="11" className="offset-md-1">
             <h3>WE CREATE BIG THINGS WITH</h3>

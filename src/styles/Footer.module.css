@@ -10,3 +10,22 @@
   width: 100%;
   background-color: #151515;
 }
+
+@media only screen and (max-device-width: 480px) {
+  .bck {
+    background-image: url(../../public/images/bg-footer.png);
+    min-height: calc(100vh - 200px);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: #151515;
+  }
+
+  .size{
+    font-size: 3rem !important;
+  }
+
+  .bdr_color{
+    border-bottom: 2px solid;
+  }
+}

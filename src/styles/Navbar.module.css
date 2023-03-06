@@ -3,3 +3,18 @@
   height: 20px;
 }
 
+@media only screen and (max-device-width: 480px) {
+  .teste > span {
+    background-image: url(../../public/images/menu.png) !important;
+    background-repeat: no-repeat !important;
+  }
+
+  .btn_color{
+    border: 2px solid;
+  }
+  
+  .bdr_color{
+    border-bottom: 2px solid;
+  }
+}
+
