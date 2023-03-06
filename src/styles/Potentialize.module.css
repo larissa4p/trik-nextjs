@@ -9,7 +9,7 @@
   top: -14px;
   height: 150%;
   width: 150%;
-  background-image: url(/_next/static/media/circle.94dd9fb6.png);
+  background-image: url(../../public/images/circle.png);
   background-size: cover;
 }
 
@@ -25,7 +25,7 @@
   height: 100%;
   width: 100%;
   background-repeat: no-repeat;
-  background-image: url(/_next/static/media/line1.290b4d40.png);
+  background-image: url(../../public/images/line1.png);
   background-size: 155px;
 }
 
@@ -38,7 +38,7 @@
     height: 128%;
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url(/_next/static/media/circle.94dd9fb6.png);
+    background-image: url(../../public/images/circle.png);
     background-size: 155px;
   }
 
@@ -54,7 +54,7 @@
     height: 100%;
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url(/_next/static/media/line1.290b4d40.png);
+    background-image: url(../../public/images/line1.png);
     background-size: 125px;
   }
 }

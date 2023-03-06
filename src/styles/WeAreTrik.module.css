@@ -16,9 +16,16 @@
 }
 
 @media only screen and (max-device-width: 480px) {
+  .bck {
+    background-image: url(../../public/images/header.png);
+    min-height: calc(100vh - 56px);
+    background-position: top right;
+    background-repeat: no-repeat;
+    width: 100%;
+  }
   .size {
-    font-size: 4rem !important;
-    line-height: 4rem;
+    font-size: 5rem !important;
+    line-height: 5rem;
   }
   .divdiv {
     height: 80vh;

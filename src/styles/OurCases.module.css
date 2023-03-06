@@ -1,4 +1,4 @@
-.bckcolor{
+.bckcolor {
   background-color: #151515;
 }
 
@@ -8,5 +8,36 @@
 
 .tspace {
   line-height: 4rem;
-  font-size: 75px!important;
+  font-size: 75px !important;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .tspace {
+    line-height: 4rem !important;
+    font-size: 60px !important;
+  }
+
+  .tColor {
+    color: #949494;
+  }
+
+  .pos{
+    position: relative;
+  }
+
+  .zIndex{
+    z-index: 99 !important;
+    position: relative;
+  }
+
+  .person::before {
+    content: "";
+    position: absolute;
+    left: 12px;
+    height: 60%;
+    width: 100%;
+    background-image: url(../../public/images/frame.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }

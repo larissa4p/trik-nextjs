@@ -13,26 +13,17 @@ import Col from "react-bootstrap/Col";
 export default function WeAreTrik() {
   return (
     <section className={`${styles.bck} pt-5`}>
-      <Container>
+      {/* DESKTOP */}
+      <Container className="d-none d-md-block d-lg-block ">
         <Row>
           <Col
             md="5"
-            className={`${styles.divdiv} pt-5 d-none d-md-block d-lg-block d-flex flex-column justify-content-center offset-md-1`}
+            className={`${styles.divdiv} pt-5 d-flex flex-column justify-content-center offset-md-1`}
           >
             <h1 className={`${styles.size} fw-bold text-start`}>
               WE ARE <br /> TRIK.
             </h1>
             <p className="fs-4 fw-light">G R O W T H . DIGITAL . AGENCY</p>
-          </Col>
-          {/* MOBILE */}
-          <Col
-            sm="5"
-            className={`${styles.divdiv}d-block d-sm-none d-flex flex-column justify-content-center offset-md-1`}
-          >
-            <h1 className={`${styles.size} p-4 fw-bold text-start`}>
-              WE ARE TRIK.
-            </h1>
-            <p className="fs-6 ps-4 py-3 fw-light">G R O W T H . DIGITAL . AGENCY</p>
           </Col>
         </Row>
         <Row>
@@ -52,6 +43,41 @@ export default function WeAreTrik() {
               </Link>
             </div>
             <div>
+              Scroll page <Image src={Chevron} alt="Icon-Chevron"/>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+      {/* MOBILE */}
+      <Container className="d-block d-sm-none">
+        <Row>
+          <Col
+            sm="5"
+            className={`${styles.divdiv} d-flex flex-column justify-content-center offset-md-1`}
+          >
+            <h1 className={`${styles.size} px-4 fw-bold text-start`}>
+              WE ARE TRIK.
+            </h1>
+            <p className="fs-3 px-4 fw-light">G R O W T H . DIGITAL . AGENCY</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col md="12" className="d-flex justify-content-between ps-4 pb-5">
+            <div>
+              <Link href="/" >
+                <Image src={LinkedIn} alt="Icon-linkedin"/>
+              </Link>
+              <Link href="/" className="ps-1">
+                <Image src={Twitter} alt="Icon-Twitter"/>
+              </Link>
+              <Link href="/" className="ps-1">
+                <Image src={Instagram} alt="Icon-Instagram"/>
+              </Link>
+              <Link href="/" className="ps-1">
+                <Image src={YouTube} alt="Icon-YouTube"/>
+              </Link>
+            </div>
+            <div className="pe-3">
               Scroll page <Image src={Chevron} alt="Icon-Chevron"/>
             </div>
           </Col>

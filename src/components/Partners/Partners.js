@@ -6,6 +6,7 @@ import Img01 from "../../../public/images/Google.png";
 import Img02 from "../../../public/images/Microsoft.png";
 import Img03 from "../../../public/images/Amazon.png";
 import Img04 from "../../../public/images/Salesforce.png";
+import Img05 from "../../../public/images/group2.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -51,12 +52,14 @@ export default class Responsive extends Component {
     };
     return (
       <section className={styles.bckcolor}>
-        <Container className="text-light pb-5">
+        {/* DESKTOP */}
+        <Container className="d-none d-md-block d-lg-block text-light pb-5">
           <Row>
             <Col className="d-flex flex-column justify-content-center align-items-center">
               <h3>MORE THAN CUSTOMERS, OUR PARTNERS.</h3>
               <p>
-                Some of our partners who believe and trust in the results we deliver
+                Some of our partners who believe and trust in the results we
+                deliver
               </p>
             </Col>
           </Row>
@@ -88,6 +91,52 @@ export default class Responsive extends Component {
               </Col>
             </Slider>
           </Row>
+        </Container>
+        {/* MOBILE */}
+        <Container className="d-block d-sm-none text-light py-5 ">
+          <Row className="px-4 text-center">
+            <Col>
+              <h3>
+                MORE THAN CUSTOMERS, <br />
+                OUR PARTNERS.
+              </h3>
+              <p>
+                Some of our partners who believe and trust in the results we
+                deliver
+              </p>
+            </Col>
+          </Row>
+          <Row>
+            <Slider {...settings} className="p-3">
+              <Col md="3" className="p-3">
+                <Image className="img-fluid" src={Img01} alt="Icon" />
+              </Col>
+              <Col md="3" className="p-3">
+                <Image className="img-fluid" src={Img02} alt="Icon" />
+              </Col>
+              <Col md="3" className="p-3">
+                <Image className="img-fluid" src={Img03} alt="Icon" />
+              </Col>
+              <Col md="3" className="p-3">
+                <Image className="img-fluid" src={Img04} alt="Icon" />
+              </Col>
+              <Col md="3" className="p-3">
+                <Image className="img-fluid" src={Img01} alt="Icon" />
+              </Col>
+              <Col md="3" className="p-3">
+                <Image className="img-fluid" src={Img02} alt="Icon" />
+              </Col>
+              <Col md="3" className="p-3">
+                <Image className="img-fluid" src={Img03} alt="Icon" />
+              </Col>
+              <Col md="3" className="p-3">
+                <Image className="img-fluid" src={Img04} alt="Icon" />
+              </Col>
+            </Slider>
+          </Row>
+          <div className="text-center">
+            <Image src={Img05} alt="Icon"/>
+          </div>
         </Container>
       </section>
     );

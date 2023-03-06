@@ -19,3 +19,21 @@
   background-repeat: no-repeat;
   width: auto;
 }
+
+@media only screen and (max-device-width: 480px) {
+  .social {
+    background-image: url(../../public/images/social.png);
+    background-size: 50rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    width: auto;
+  }
+
+  .bck {
+    background-image: url(../../public/images/growth.png);
+    background-size: 50rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    width: auto;
+  }
+}
