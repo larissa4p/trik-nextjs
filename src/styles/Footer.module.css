@@ -13,7 +13,7 @@
 
 @media only screen and (max-device-width: 480px) {
   .bck {
-    background-image: url(../../public/images/bg-footer.png);
+    background-image: url(../../public/images/footer-mobile.png);
     min-height: calc(100vh - 200px);
     background-position: center;
     background-repeat: no-repeat;

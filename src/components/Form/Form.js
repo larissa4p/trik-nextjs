@@ -10,7 +10,7 @@ import Col from "react-bootstrap/Col";
 
 function WantForm() {
   return (
-    <section className={`${styles.bckcolor} py-5`}>
+    <section id="form" className={`${styles.bckcolor} py-5`}>
       <Container>
         <Row>
           <Col md="5" className="offset-md-1">

@@ -12,7 +12,7 @@ import Col from "react-bootstrap/Col";
 
 export default function WeAreTrik() {
   return (
-    <section className={`${styles.bck} pt-5`}>
+    <section id="trik" className={`${styles.bck} pt-5`}>
       {/* DESKTOP */}
       <Container className="d-none d-md-block d-lg-block ">
         <Row>
@@ -43,7 +43,7 @@ export default function WeAreTrik() {
               </Link>
             </div>
             <div>
-              Scroll page <Image src={Chevron} alt="Icon-Chevron"/>
+              <Link href="#potentialize" className={styles.decoration}>Scroll page <Image src={Chevron} alt="Icon-Chevron"/></Link>
             </div>
           </Col>
         </Row>

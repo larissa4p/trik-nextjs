@@ -2,10 +2,12 @@ import styles from "../../styles/Partners.module.css";
 import React, { Component } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
-import Img01 from "../../../public/images/Google.png";
-import Img02 from "../../../public/images/Microsoft.png";
-import Img03 from "../../../public/images/Amazon.png";
-import Img04 from "../../../public/images/Salesforce.png";
+// import Img01 from "../../../public/images/Google.png";
+// import Img02 from "../../../public/images/Microsoft.png";
+// import Img03 from "../../../public/images/Amazon.png";
+// import Img04 from "../../../public/images/Salesforce.png";
+import BB from "../../../public/images/banco-do-brasil.png";
+import DV from "../../../public/images/devsquad.png";
 import Img05 from "../../../public/images/group2.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -51,7 +53,7 @@ export default class Responsive extends Component {
       ],
     };
     return (
-      <section className={styles.bckcolor}>
+      <section id="partners" className={styles.bckcolor}>
         {/* DESKTOP */}
         <Container className="d-none d-md-block d-lg-block text-light pb-5">
           <Row>
@@ -65,29 +67,17 @@ export default class Responsive extends Component {
           </Row>
           <Row>
             <Slider {...settings} className="p-3">
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img01} alt="Icon" />
+              <Col className="p-3 ">
+                <Image className="img-fluid" src={BB} alt="Icon" />
               </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img02} alt="Icon" />
+              <Col className="p-3 ">
+                <Image className="img-fluid" src={DV} alt="Icon" />
               </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img03} alt="Icon" />
+              <Col className="p-3 ">
+                <Image className="img-fluid" src={BB} alt="Icon" />
               </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img04} alt="Icon" />
-              </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img01} alt="Icon" />
-              </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img02} alt="Icon" />
-              </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img03} alt="Icon" />
-              </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img04} alt="Icon" />
+              <Col className="p-3 ">
+                <Image className="img-fluid" src={DV} alt="Icon" />
               </Col>
             </Slider>
           </Row>
@@ -108,34 +98,16 @@ export default class Responsive extends Component {
           </Row>
           <Row>
             <Slider {...settings} className="p-3">
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img01} alt="Icon" />
+              <Col className="p-3">
+                <Image className="img-fluid" src={BB} alt="Icon" />
               </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img02} alt="Icon" />
-              </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img03} alt="Icon" />
-              </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img04} alt="Icon" />
-              </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img01} alt="Icon" />
-              </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img02} alt="Icon" />
-              </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img03} alt="Icon" />
-              </Col>
-              <Col md="3" className="p-3">
-                <Image className="img-fluid" src={Img04} alt="Icon" />
+              <Col className="p-3">
+                <Image className="img-fluid" src={DV} alt="Icon" />
               </Col>
             </Slider>
           </Row>
           <div className="text-center">
-            <Image src={Img05} alt="Icon"/>
+            <Image src={Img05} alt="Icon" />
           </div>
         </Container>
       </section>

@@ -15,6 +15,11 @@
   height: 80vh;
 }
 
+.decoration {
+  text-decoration: none !important;
+  color: #B3BFB3 !important;
+}
+
 @media only screen and (max-device-width: 480px) {
   .bck {
     background-image: url(../../public/images/header.png);
@@ -29,5 +34,10 @@
   }
   .divdiv {
     height: 80vh;
+  }
+
+  .decoration {
+    text-decoration: none !important;
+    color: #B3BFB3 !important;
   }
 }

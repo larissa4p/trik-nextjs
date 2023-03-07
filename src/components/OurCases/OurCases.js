@@ -10,7 +10,7 @@ export default function OurCases() {
   return (
     <section className={styles.bckcolor}>
       {/* DESKTOP */}
-      <Container className="d-none d-md-block py-5">
+      <Container className="d-none py-5">
         <Row>
           <Col md="7">
             <Image className="img-fluid" src={Img01} alt="image-frame" />
@@ -31,7 +31,7 @@ export default function OurCases() {
         </Row>
       </Container>
       {/* MOBILE */}
-      <Container className={`${styles.pos}d-block d-sm-none py-5`}>
+      <Container className={`${styles.pos} d-none py-5`}>
         <Row>
           <div className={`${styles.person} pb-5`}></div>
           <Col md="12" className="pt-5 px-4">

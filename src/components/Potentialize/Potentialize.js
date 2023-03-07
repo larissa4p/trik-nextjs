@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 export default function Potentialize() {
   return (
-    <section className={styles.bck}>
+    <section id="potentialize" className={styles.bck}>
       {/* DESKTOP */}
       <Container className="pt-5 d-none d-md-block">
         <Row className={`d-flex justify-content-center py-5`}>

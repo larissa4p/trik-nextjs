@@ -49,7 +49,7 @@ export default class Responsive extends Component {
       ],
     };
     return (
-      <section className={styles.bckcolor}>
+      <section className={`${styles.bckcolor} d-none`}>
         <Container className="text-light pb-5">
           <Row>
             <Slider {...settings} className="p-3 px-3">

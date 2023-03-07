@@ -3,6 +3,11 @@
   height: 20px;
 }
 
+.decoration {
+  text-decoration: none !important;
+  color: #B3BFB3 !important;
+}
+
 @media only screen and (max-device-width: 480px) {
   .teste > span {
     background-image: url(../../public/images/menu.png) !important;
@@ -15,6 +20,11 @@
   
   .bdr_color{
     border-bottom: 2px solid;
+  }
+
+  .decoration {
+    text-decoration: none !important;
+    color: #B3BFB3 !important;
   }
 }
 

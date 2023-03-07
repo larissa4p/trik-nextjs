@@ -1,5 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Image from "next/image";
+import Link from "next/link";
 import LinkedIn from "../../../public/images/LinkedIn.png";
 import Twitter from "../../../public/images/Twitter.png";
 import Instagram from "../../../public/images/Instagram.png";
@@ -38,20 +39,22 @@ const nav = () => {
             className="d-flex justify-content-end"
           >
             <Nav>
-              <Nav.Link className="p-2" href="#features">
+              <Nav.Link className="p-2" href="#trik">
                 WE ARE TRIK
               </Nav.Link>
-              <Nav.Link className="p-2 " href="#features">
+              <Nav.Link className="p-2 " href="#potentialize">
                 WHAT WE DO
               </Nav.Link>
-              <Nav.Link className="p-2 pe-5" href="#features">
+              <Nav.Link className="p-2 pe-5" href="#partners">
                 OUR PARTNERS
               </Nav.Link>
               <Button
                 className={`${styles.btn_color} `}
                 variant="btn btn-outline-secondary text-light rounded-0"
               >
-                LET'S TALK
+                <Link className={styles.decoration} href="#form">
+                  LET'S TALK
+                </Link>
               </Button>
             </Nav>
           </Navbar.Collapse>
@@ -82,13 +85,22 @@ const nav = () => {
           />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="fs-4 px-4 pt-5 mt-5">
-              <Nav.Link className={`${styles.bdr_color} text-light pb-4`} href="#features">
+              <Nav.Link
+                className={`${styles.bdr_color} text-light pb-4`}
+                href="#trik"
+              >
                 WE ARE TRIK
               </Nav.Link>
-              <Nav.Link className={`${styles.bdr_color} text-light pb-4`} href="#features">
+              <Nav.Link
+                className={`${styles.bdr_color} text-light pb-4`}
+                href="#potentialize"
+              >
                 WHAT WE DO
               </Nav.Link>
-              <Nav.Link className={`${styles.bdr_color} text-light pb-4`} href="#features">
+              <Nav.Link
+                className={`${styles.bdr_color} text-light pb-4`}
+                href="#partners"
+              >
                 OUR PARTNERS
               </Nav.Link>
             </Nav>
@@ -96,7 +108,9 @@ const nav = () => {
               className={`${styles.btn_color} m-4`}
               variant="btn btn-outline-secondary text-light rounded-0"
             >
-              LET'S TALK
+              <Link className={styles.decoration} href="#form">
+                LET'S TALK
+              </Link>
             </Button>
             <div className="d-flex p-4">
               <Nav.Link>
